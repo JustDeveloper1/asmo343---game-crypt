@@ -1,6 +1,7 @@
 import {NextResponse} from "next/server";
 import {encode} from "../../../../lib/encoder";
 
+export const runtime = 'edge';
 export async function POST(request: Request) {
   try {
     const reqjson = await request.json();
