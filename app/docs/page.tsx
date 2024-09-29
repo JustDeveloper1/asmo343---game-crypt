@@ -52,7 +52,7 @@ const ApiDocs = () => {
 						<div className='overflow-x-auto'>
               <pre className='bg-gray-800 text-white p-4 sm:p-6 rounded-lg mb-4'>
                 <code className='whitespace-pre break-words'>
-                  {`curl -X POST http://localhost:3000/api/v1/encode \\
+                  {`curl -X POST https://gamecrypt.asmocore.eu/api/v1/encode \\
   -H "Content-Type: application/json" \\
   -d '{"game": "fortnite", "text": ${exampleRequestBody}}'
 `}
@@ -107,7 +107,7 @@ const ApiDocs = () => {
 						<div className='overflow-x-auto'>
               <pre className='bg-gray-800 text-white p-4 sm:p-6 rounded-lg mb-4'>
                 <code className='whitespace-pre break-words'>
-                  {`curl -X POST http://localhost:3000/api/v1/decode \\
+                  {`curl -X POST https://gamecrypt.asmocore.eu/api/v1/ \\
   -H "Content-Type: application/json" \\
   -d '{"game": "fortnite", "text": "FortniteRP Fortnite SkullTrooper. FortniteRP Fortnite FortniteRP. FortniteRP Fortnite FN. FortniteRP Fortnite FN. FortniteRP FortniteRP FortniteRP"}'
 `}
