@@ -13,6 +13,24 @@ interface Languages {
 }
 
 const languages: Languages = {
+  beamng: [
+    "Car",
+    "Cars",
+    "Crash",
+    "CarCrash",
+    "GameCrash",
+    "NoTexture",
+    "ModCrash",
+    "100MPH",
+    "200MPH",
+    "300MPH",
+    "400MPH",
+    "KILOMETER",
+    "Truck",
+    "Gas",
+    "SteeringWheel",
+    "PC-Explode",
+  ],
   fortnite: [
     "Fortnite",
     "FortniteRP",
