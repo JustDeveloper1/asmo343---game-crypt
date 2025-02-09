@@ -16,7 +16,7 @@ const GameSelector: React.FC<GameSelectorProps> = ({ onGameChange }) => (
                 <SelectGroup>
                     <SelectLabel className='text-white'>Which game do you prefer?</SelectLabel>
                     <SelectItem className='text-white focus:text-white hover:bg-dark-300 focus:bg-dark-300' value="fortnite">Fortnite</SelectItem>
-                    <SelectItem className='text-white focus:text-white hover:bg-dark-300 focus:bg-dark-300' value="lol">League of legends</SelectItem>
+                    <SelectItem className='text-white focus:text-white hover:bg-dark-300 focus:bg-dark-300' value="lol">League of Legends</SelectItem>
                     <SelectItem className='text-white focus:text-white hover:bg-dark-300 focus:bg-dark-300' value="mc">Minecraft</SelectItem>
                     <SelectItem className='text-white focus:text-white hover:bg-dark-300 focus:bg-dark-300' value="roblox">Roblox</SelectItem>
                     <SelectItem className='text-white focus:text-white hover:bg-dark-300 focus:bg-dark-300' value="valorant">Valorant</SelectItem>
